@@ -1,5 +1,8 @@
 {
   "scripts": {
-    "test": "node app.spec.js"
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
